@@ -35,11 +35,11 @@ export function Footer() {
             <ul className="space-y-4">
               <li className="flex items-center gap-3 text-gray-400">
                 <MapPin className="w-5 h-5 text-kolkata-yellow" />
-                <span>Park Street, Kolkata, WB 700016</span>
+                <span>Barasat, North 24 Parganas, Kolkata, West Bengal, India</span>
               </li>
               <li className="flex items-center gap-3 text-gray-400">
                 <Phone className="w-5 h-5 text-kolkata-yellow" />
-                <span>+91 98765 43210</span>
+                <span>+91 8653 527674</span>
               </li>
               <li className="flex items-center gap-3 text-gray-400">
                 <Mail className="w-5 h-5 text-kolkata-yellow" />
