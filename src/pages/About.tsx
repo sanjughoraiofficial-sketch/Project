@@ -124,7 +124,7 @@ export function About() {
               { name: "Sanju Ghorai", role: "Head of Operations", img: "/assets/Sanju.jpeg" },
               { name: "Sarthak Mandal", role: "Tech Lead", img: "/assets/Sarthak.jpeg" },
               { name: "Nimai Das", role: "Tech Lead", img: "/assets/Nimai.jpeg" },
-              { name: "Debjit Bera", role: "Tech Lead", img: "/assets/Debbjit.jpeg" },
+              { name: "Debajit Bera", role: "Tech Lead", img: "/assets/Debbjit.jpeg" },
               { name: "Subham Das", role: "Tech Lead", img: "/assets/Subham.jpeg" },
             ].map((member, i) => (
               <motion.div
