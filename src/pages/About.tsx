@@ -1,6 +1,7 @@
 import { motion } from "motion/react";
 import { Bike, Users, MapPin, Star, TrendingUp, Zap, Shield, Heart } from "lucide-react";
 
+
 export function About() {
   const stats = [
     { icon: <Users className="w-6 h-6" />, label: "Happy Riders", value: "50,000+" },
@@ -119,9 +120,12 @@ export function About() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
             {[
-              { name: "Arjun Das", role: "Founder & CEO", img: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1974&auto=format&fit=crop" },
-              { name: "Priya Sen", role: "Head of Operations", img: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=1974&auto=format&fit=crop" },
-              { name: "Rahul Bose", role: "Tech Lead", img: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=1974&auto=format&fit=crop" },
+              { name: "Sayan Pal", role: "Founder & CEO", img: "/assets/Sayanal.jpeg" },
+              { name: "Sanju Ghorai", role: "Head of Operations", img: "/assets/Sanju.jpeg" },
+              { name: "Sarthak Mandal", role: "Tech Lead", img: "/assets/Sarthak.jpeg" },
+              { name: "Nimai Das", role: "Tech Lead", img: "/assets/Nimai.jpeg" },
+              { name: "Debjit Bera", role: "Tech Lead", img: "/assets/Debbjit.jpeg" },
+              { name: "Subham Das", role: "Tech Lead", img: "/assets/Subham.jpeg" },
             ].map((member, i) => (
               <motion.div
                 key={i}
